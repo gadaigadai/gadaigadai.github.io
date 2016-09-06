@@ -1,0 +1,64 @@
+---
+layout:     post
+title:      "Hello 2016"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2016-09-05 12:00:00
+author:     "Gadaigadai"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - markdown
+---
+
+# 前言
+
+刚刚开通了Blog，模板fork的[Hux](http://huangxuan.me/)。开始学习用Markdown写点东西，Markdown 是一种用来写作的轻量级「标记语言」，看了一篇非常不错的[简介](http://sspai.com/markdown-guide)，入门简单，极易上手。对了，我用的工具是[Typora](https://www.typora.io/)，也是非常简洁好用的。
+
+# 一、Markdown学习
+
+[认识与入门Markdown](http://sspai.com/markdown-guide)
+
+## 标题
+如果一段文字被定义为标题，只要在这段文字前加 `#` 即可，几个 `#` 就表示几级标题，建议在 `#` 后加一个空格。
+
+## 列表
+
+列表的显示只需要在文字前加上 `-` 或 `*` 即可变为无序列表，有序列表则直接在文字前加 `1.` `2.` `3.` ，符号和文字之间要加上一个空格。
+
+## 图片与链接
+
+链接，用`[]`包含，后边`()`跟随具体url。例：`[认识与入门Markdown](http://sspai.com/markdown-guide)`。图片和链接的唯一区别是需要在`[]`前机上一个`!`。
+
+## 引用
+
+只需要在文本前加上`>`即可。
+
+## 粗体与斜体
+
+粗体只需要将文本用两个`*`包含起来，斜体则只要一个`*`。
+
+## 代码
+
+作为一个程序员，经常需要插入代码，你需要用两个 ` 将代码包含起来。
+
+## 分割线
+
+连续输入三个`*`即可。
+
+# 二、Typora学习
+
+[让Markdown写作更简单，免费极简编辑器：Typora](http://sspai.com/30292)
+
+表格直接insert，可以预先设定默认行数列数格式；图片直接拖拽进来，无须按照语法格式编写，自动生成；支持查看目录大纲等等。总之很方便，谁用谁知道~
+
+# 三、格式转化
+
+刚刚入门，目前只用了pandoc，还是比较方便的。
+
+## md->html
+
+pandoc --ascii -f markdown -t html -o demo.html demo.md
+
+## md->doc
+
+pandoc demo.md -o demo.doc
