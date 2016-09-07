@@ -12,7 +12,7 @@ tags:
 
 # 前言
 
-刚刚开通了Blog，模板fork的[Hux](http://huangxuan.me/)。开始学习用Markdown写点东西，Markdown 是一种用来写作的轻量级「标记语言」，看了一篇非常不错的[简介](http://sspai.com/markdown-guide)，入门简单，极易上手。对了，我用的工具是[Typora](https://www.typora.io/)，也是非常简洁好用的。
+刚刚开通了Blog，模板fork的[Hux](http://huangxuan.me/)，入门学习来自[新坤](http://xuxinkun.github.io/2016/03/03/hello-2016/)。开始学习用Markdown写点东西，Markdown 是一种用来写作的轻量级「标记语言」，看了一篇非常不错的[简介](http://sspai.com/markdown-guide)，入门简单，极易上手。对了，我用的工具是[Typora](https://www.typora.io/)，也是非常简洁好用的。
 
 # 一、Markdown学习
 
@@ -62,3 +62,7 @@ pandoc --ascii -f markdown -t html -o demo.html demo.md
 ## md->doc
 
 pandoc demo.md -o demo.doc
+
+# 四、编译运行
+
+接下来就是markdown文件的编译运行了，github可以自动完成，但是如果想要本地调试的话，可以使用[jekyll](http://jekyll-windows.juthilo.com/)，进入到本地github.io文件夹运行 jekyll serve 即可，浏览器通过 http://127.0.0.1:4000 访问。
