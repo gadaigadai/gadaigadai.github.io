@@ -65,4 +65,4 @@ pandoc demo.md -o demo.doc
 
 # 四、编译运行
 
-接下来就是markdown文件的编译运行了，github可以自动完成，但是如果想要本地调试的话，可以使用[jekyll](http://jekyll-windows.juthilo.com/)，进入到本地github.io文件夹运行 jekyll serve 即可，浏览器通过 http://127.0.0.1:4000 访问。
+接下来就是markdown文件的编译运行了，github可以自动完成，但是如果想要本地调试的话，可以使用[jekyll](http://jekyll-windows.juthilo.com/)，进入到本地github.io文件夹运行 jekyll serve 即可，浏览器通过 http://127.0.0.1:5001 访问（port默认4000，我本地运行时4000被占用，在_config.yml中配置port: 5001修改绑定port）。
