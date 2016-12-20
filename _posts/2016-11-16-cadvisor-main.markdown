@@ -12,9 +12,7 @@ tags:
 
 参考资料：[cAdvisor源码分析](http://wangzhezhe.github.io/blog/2016/02/12/cadvisor-part1/)。由于是源码分析，我习惯在代码行后加上注释，主要是个人的理解。去掉了部分代码，主要是日志之类的。
 
-这里分析下Kubernetes中监控数据采集所用到的cAdvisor服务源码，先梳理一下cAdvisor的各个模块及其功能。
-
-服务启动入口：cadvisor/cadvisor.go
+这里分析下Kubernetes中监控数据采集所用到的cAdvisor服务源码，直接从服务启动入手：cadvisor/cadvisor.go
 
 ```go
 func main() {
@@ -393,21 +391,7 @@ func (c *containerData) updateStats() error {
 
 
 
+参考资料：
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[cAdvisor获取数据详解](http://blog.opskumu.com/cadvisor.html)
 
