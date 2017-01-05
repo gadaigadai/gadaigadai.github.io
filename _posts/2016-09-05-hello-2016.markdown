@@ -27,7 +27,7 @@ tags:
 
 ## 图片与链接
 
-链接，用`[]`包含，后边`()`跟随具体url。例：`[认识与入门Markdown](http://sspai.com/markdown-guide)`。图片和链接的唯一区别是需要在`[]`前机上一个`!`。
+链接，用`[]`包含，后边`()`跟随具体url。例：`[认识与入门Markdown](http://sspai.com/markdown-guide)`。图片和链接的唯一区别是需要在`[]`前加上一个`!`。
 
 ## 引用
 
