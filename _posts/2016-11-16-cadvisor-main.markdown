@@ -115,7 +115,7 @@ func New(memoryCache *memory.InMemoryCache, sysfs sysfs.SysFs, maxHousekeepingIn
   	//调用docker api获取docker信息.
 
 	rktPath, err := rkt.RktPath()
-  	//rtk,Linux的容器引擎.
+  	//rkt,Linux的容器引擎.
 
 	context := fs.Context{
 		Docker: fs.DockerContext{
